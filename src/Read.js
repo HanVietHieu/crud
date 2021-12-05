@@ -22,17 +22,6 @@ export default function Read() {
             })
     }, [])
 
-
-
-
-
-
-
-
-
-
-
-
     const onDelete = (id) => {
         axios.delete(`https://61a843ef387ab200171d3075.mockapi.io/hanhieu/${id}`)
         .then(() => {
@@ -49,6 +38,7 @@ export default function Read() {
     
     return (
         <div>
+
             <Table singleLine>
                 <Table.Header>
                     <Table.Row>

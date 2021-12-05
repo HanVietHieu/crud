@@ -42,6 +42,7 @@ const updateAPIData = () => {
                     <Checkbox label='I agree to the Terms and Conditions' checked={checkbox} onChange={(e) => setCheckbox(!checkbox)}/>
                 </Form.Field>
                 <Button type='submit' onClick={updateAPIData}>Update</Button>
+                
             </Form>
         </div>
     )
